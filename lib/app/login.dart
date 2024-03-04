@@ -205,6 +205,12 @@ class _BottomFormState extends State<_BottomForm> {
                         builder: (BuildContext context) => const Home(),
                       ),
                     );
+                  } else {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Invalid email or password'),
+                      ),
+                    );
                   }
                 }
               },
