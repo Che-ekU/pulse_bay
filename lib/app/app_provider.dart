@@ -3,7 +3,7 @@ import 'package:pulse_bay_task/app/constants/assets.dart';
 import 'package:pulse_bay_task/app/models/city.dart';
 import 'package:pulse_bay_task/app/models/industry.dart';
 import 'package:pulse_bay_task/app/models/trade.dart';
-import 'package:pulse_bay_task/app/repository.dart';
+import 'package:pulse_bay_task/app/app_repository.dart';
 
 class AppProvider extends ChangeNotifier {
   List<CitySchema> cities = [];

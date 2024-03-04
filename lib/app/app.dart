@@ -3,7 +3,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 import 'package:pulse_bay_task/app/app_provider.dart';
 import 'package:pulse_bay_task/app/constants/theme.dart';
-import 'package:pulse_bay_task/app/login.dart';
+import 'package:pulse_bay_task/login/login.dart';
 
 class PulseBayTask extends StatelessWidget {
   const PulseBayTask({super.key});
